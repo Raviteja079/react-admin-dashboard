@@ -1,0 +1,17 @@
+export { default as LightModeOutlinedIcon } from "@mui/icons-material/LightModeOutlined";
+export { default as DarkModeOutlinedIcon } from "@mui/icons-material/DarkModeOutlined";
+export { default as NotificationsOutlinedIcon } from "@mui/icons-material/NotificationsOutlined";
+export { default as SettingsOutlinedIcon } from "@mui/icons-material/SettingsOutlined";
+export { default as PersonOutlinedIcon } from "@mui/icons-material/PersonOutlined";
+export { default as SearchIcon } from "@mui/icons-material/Search";
+export {default as MenuOutlinedIcon} from "@mui/icons-material/MenuOutlined";
+export {default as HomeOutlinedIcon} from "@mui/icons-material/HomeOutlined";
+export {default as BarChartOutlinedIcon} from "@mui/icons-material/BarChartOutlined";
+export {default as PieChartOutlinedIcon} from "@mui/icons-material/PieChartOutlined";
+export {default as TimelineOutlinedIcon} from "@mui/icons-material/TimelineOutlined";
+export {default as MapOutlinedIcon} from "@mui/icons-material/MapOutlined";
+export {default as HelpOutlinedIcon} from "@mui/icons-material/HelpOutlined";
+export {default as CalendarTodayOutlinedIcon} from "@mui/icons-material/CalendarTodayOutlined"; 
+export {default as ReceiptOutlinedIcon} from "@mui/icons-material/ReceiptOutlined";
+export {default as ContactsOutlinedIcon} from "@mui/icons-material/ContactsOutlined";
+export {default as PeopleOutlinedIcon} from "@mui/icons-material/PersonOutlined";
