@@ -73,6 +73,15 @@ export const mockDataTeam = [
     phone: "(444)555-6239",
     access: "admin",
   },
+  {
+    id: 10,
+    name: "Praveen Targaryen",
+    email: "praveentargaryen@gmail.com",
+    age: 69,
+    phone: "(786)143143143",
+    date: "03/21/2022",
+    access: "admin"
+  },
 ];
 
 export const mockDataContacts = [
@@ -226,8 +235,8 @@ export const mockDataInvoices = [
   },
   {
     id: 4,
-    name: "Anya Stark",
-    email: "anyastark@gmail.com",
+    name: "Arya Stark",
+    email: "aryastark@gmail.com",
     cost: "80.55",
     phone: "(921)425-6742",
     date: "03/21/2022",

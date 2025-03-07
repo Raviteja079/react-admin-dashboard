@@ -23,15 +23,17 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   return (
-    <MenuItem
-      active={selected === title}
-      style={{ color: colors.grey[100] }}
-      onClick={() => setSelected(title)}
-      icon={icon}
-    >
-      <Typography>{title}</Typography>
-      <Link to={to} />
-    </MenuItem>
+    <Link to={to} style={{ textDecoration: 'none', color: 'inherit' }}>
+      <MenuItem
+        active={selected === title}
+        style={{ color: colors.grey[100] }}
+        onClick={() => {
+          setSelected(title)}}
+        icon={icon}
+      >
+        <Typography>{title}</Typography>
+      </MenuItem>
+    </Link>
   );
 };
 
@@ -128,6 +130,11 @@ const SideBar = () => {
               selected={selected}
               setSelected={setSelected}
             />
+            <Typography
+              variant="h6"
+              color={colors.grey[300]}
+              sx={{ m: "15px 0px 5px 20px" }}
+            >Data</Typography>
             <Item
               title="Manage Team"
               to="/team"
@@ -149,6 +156,11 @@ const SideBar = () => {
               selected={selected}
               setSelected={setSelected}
             />
+            <Typography
+              variant="h6"
+              color={colors.grey[300]}
+              sx={{ m: "15px 0px 5px 20px" }}
+            >Pages</Typography>
             <Item
               title="Profile Form"
               to="/form"
@@ -170,6 +182,11 @@ const SideBar = () => {
               selected={selected}
               setSelected={setSelected}
             />
+            <Typography
+              variant="h6"
+              color={colors.grey[300]}
+              sx={{ m: "15px 0px 5px 20px" }}
+            >Charts</Typography>
             <Item
               title="Bar Chart"
               to="/bar"
