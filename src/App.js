@@ -6,14 +6,14 @@ import Dashboard from "./pages/dashboard";
 import SideBar from "./pages/global/Sidebar";
 import Team from "./pages/team";
 import Invoices from "./pages/invoices";
-import Form from "./pages/form/index";
+import Form from "./pages/form/index"
 import Contacts from "./pages/contacts";
 import Calendar from "./pages/calendar/index";
 import FAQ from "./pages/faq";
-// import Bar from './pages/charts/Bar';
-// import Pie from './pages/charts/Pie';
-// import Line from './pages/charts/Line';
-// import Geography from './pages/geography';
+import Bar from './pages/bar/index';
+import Pie from './pages/pie/index';
+import Line from './pages/line/index';
+import Geography from './pages/geography/index';
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -33,10 +33,10 @@ function App() {
               <Route path="/form" element={<Form />} />
               <Route path="/calendar" element={<Calendar />} />
               <Route path="/faq" element={<FAQ />} />
-              {/* <Route path='/bar' element={<Bar />} />
-                  <Route path='/pie' element={<Pie />} />
-                  <Route path='/line' element={<Line />} />
-                  <Route path='/geography' element={<Geography />} />  */}
+              <Route path='/bar' element={<Bar />} />
+              <Route path='/pie' element={<Pie />} />
+              <Route path='/line' element={<Line />} />
+              <Route path='/geography' element={<Geography />} />
             </Routes>
           </main>
         </div>
